@@ -16,7 +16,7 @@ router.use(requireAuth)
 // GET all workouts
 router.get('/', getWorkouts)
 
-//GET a single workout
+// GET a single workout
 router.get('/:id', getWorkout)
 
 // POST a new workout
